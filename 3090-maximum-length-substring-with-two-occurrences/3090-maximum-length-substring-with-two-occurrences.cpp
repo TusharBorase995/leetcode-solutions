@@ -2,7 +2,6 @@ class Solution {
 public:
     int maximumLengthSubstring(string s) {
         unordered_map<char, int> freq;
-
         int left = 0;
         int ans = 0;
 
