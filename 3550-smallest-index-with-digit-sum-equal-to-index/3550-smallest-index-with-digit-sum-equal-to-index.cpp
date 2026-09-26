@@ -14,12 +14,9 @@ public:
                 n = n / 10;
             }
             if(ans == i){
-                arr.push_back(i);
+                return i;
             }
         }
-        if(arr.empty()) {
-            return -1;
-        }
-        return arr[0];
+        return -1;
     }
 };
